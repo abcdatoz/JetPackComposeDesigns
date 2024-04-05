@@ -12,6 +12,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.instagramapp.Incomes.IncomesScreen
+import com.example.instagramapp.calendar.CalendarScreen
 import com.example.instagramapp.chart.ChartScreen
 import com.example.instagramapp.coinExchange.CoinExchangeScreen
 import com.example.instagramapp.frutas.FrutasScreen
@@ -46,7 +47,8 @@ class MainActivity : ComponentActivity() {
                     //CoinExchangeScreen()
                     //FrutasScreen()
                     //ShareValueScreen()
-                    ChartScreen()
+                    //ChartScreen()
+                    CalendarScreen()
                 }
             }
         }
