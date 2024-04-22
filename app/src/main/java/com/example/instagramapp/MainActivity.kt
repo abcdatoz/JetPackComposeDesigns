@@ -15,8 +15,12 @@ import com.example.instagramapp.Incomes.IncomesScreen
 import com.example.instagramapp.calendar.CalendarScreen
 import com.example.instagramapp.chart.ChartScreen
 import com.example.instagramapp.coinExchange.CoinExchangeScreen
+import com.example.instagramapp.creditCard.CreditCardScreen
+import com.example.instagramapp.creditCards.CreditCardsScreen
 import com.example.instagramapp.frutas.FrutasScreen
 import com.example.instagramapp.frutas.ShareValueScreen
+import com.example.instagramapp.greenAndGoldCard.GreenAndGoldCardScreen
+import com.example.instagramapp.lastOne.LastOneScreen
 import com.example.instagramapp.menu.MenuScreen
 import com.example.instagramapp.moneyExchange.MoneyExchangeScreen
 import com.example.instagramapp.profile.ProfileScreen
@@ -48,7 +52,11 @@ class MainActivity : ComponentActivity() {
                     //FrutasScreen()
                     //ShareValueScreen()
                     //ChartScreen()
-                    CalendarScreen()
+                    //CalendarScreen()
+                    //CreditCardScreen()
+                    //CreditCardsScreen()
+                    //GreenAndGoldCardScreen()
+                    LastOneScreen()
                 }
             }
         }
